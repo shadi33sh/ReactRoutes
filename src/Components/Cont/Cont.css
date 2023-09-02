@@ -1,0 +1,35 @@
+.popular .cont {
+    display: flex;  
+    margin: 20px auto;
+    width: 80vw;
+    justify-content: space-between;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items:center;
+    
+}
+.popular .cont h1{
+   font-size: 2rem;
+}
+.popular .cont .desc {
+    width: 45% ;
+}
+
+.popular .cont .image{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+.popular .cont .image img{
+    height: 400px;
+    box-sizing: border-box;
+    width: 49%;
+    transition: 200ms;
+    border-radius: 13px;
+   
+}
+.popular .cont .image img:hover{
+    transform: scale(1.0 2);
+}
+.popular .cont.reverse{
+flex-direction: row-reverse;
+}

@@ -1,0 +1,18 @@
+.recent .text h1 ,.recent .text p {
+    width: max-content;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+.recent p , .recent h1{
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.recent .cardItem {
+    width: 80vw;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+}
+.cardItem{
+
+}

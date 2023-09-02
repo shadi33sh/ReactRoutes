@@ -1,0 +1,43 @@
+.footer{
+    width: 100%;
+    margin:  0px;
+    margin-top: 40px;   
+    background-color: rgb(37, 36, 36);
+    height: 400px;  
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    color: aliceblue;
+}
+.footer .elements{
+    padding: 40px ;
+}
+h1{
+    font-size: 36px; 
+     margin:  0px;
+}
+ .footer .elements p{
+    padding: 10px 0px 10px 10px ;
+     margin: 0px;
+    padding-bottom: 10px;
+}
+.item{
+  display:flex;
+  width:60% ; 
+
+}
+.lists h2{
+    font-weight: 900;
+    width: 290px;
+    margin: 0px;
+    font-size: 1rem;
+    padding: 40px 40px 0px 40px ;  
+} 
+.lists ul{
+    width: 100px;
+    padding: 0px 40px 0px 50px ;  
+} 
+.lists li{
+    
+font-weight: 50;
+padding-bottom:  20px; 
+} 

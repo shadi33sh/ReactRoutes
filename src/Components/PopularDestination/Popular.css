@@ -1,0 +1,9 @@
+.popular .text h1 , .popular .text p{
+    margin: 20px auto;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    width: max-content;
+}
+.popular h1 {
+    font-size: 3rem;
+}
