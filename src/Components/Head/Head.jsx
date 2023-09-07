@@ -2,14 +2,14 @@ import React from 'react'
 import Contain from '../Container/Contain'
 import './Head.css'
 import pg from './../../../public/12.jpg'
-export default function Head() {
+export default function Head(props) {
   return (
     <div className="head"> 
    <Contain  
-   pg = {pg}  
-   title = "Your Jorney Your Story"
-   info  = "Choose Your Favourite Destination "
-   btn   = "Travile Now"
+ pg =    {props.pg}  
+ title = {props.title}
+ info  = {props.info}
+ btn   = {props.btn}
    />
    </div>
   )

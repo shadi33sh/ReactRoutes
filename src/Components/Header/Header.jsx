@@ -1,22 +1,20 @@
 import React from 'react'
 import'./Header.css'
-import { AiFillHome } from "@react-icons/all-files/ai/AiFillHome";
-import {HiInformationCircle} from "@react-icons/all-files/Hi/HiInformationCircle"
+import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <nav className="header">
      <h1 className="logo">Trippy</h1>
      <div className="navItems">
       <ul>
-        <li><a href="#"><i><AiFillHome/></i> Home</a></li> 
-        <li><a href="#"><i></i>Services</a></li> 
-        <li><a href="#"><i></i>Contact us</a></li> 
-        <li><a href="#"><i><HiInformationCircle/></i>About Us</a></li> 
+       <Link className='link' to='/'><li><a href="#">Home</a></li></Link> 
+       <Link className='link' to='/services'><li><a href="#"><i></i>Services</a></li></Link> 
+       <Link className='link' to='/contact'><li><a href="#"><i></i>Contact us</a></li></Link>  
+       <Link className='link' to='/about'><li><a href="#">About Us</a></li></Link>
       </ul>
       <button>Sign in</button>
      </div>
     </nav>
-
   )
 }
 export default Header
